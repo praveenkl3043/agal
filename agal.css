@@ -9,13 +9,14 @@ div{
     text-align: center;
 }
 
-.besthead{
-    margin-top:10%;
+.best{
+    margin-top:5%;
 }
 .students{
     text-align: center;
 }
 .enquiry{
+    margin-top: 3%;
     background:rgb(77, 77, 185);
     color:white;
 }
