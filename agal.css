@@ -1,0 +1,68 @@
+div{
+    background: linear-gradient(to right rgb(241, 224, 224),rgb(8, 8, 8),rgb(103, 103, 158));
+}
+
+.admission{
+    margin-top:10%;
+}
+.img{
+    text-align: center;
+}
+
+.besthead{
+    margin-top:10%;
+}
+.students{
+    text-align: center;
+}
+.enquiry{
+    background:rgb(77, 77, 185);
+    color:white;
+}
+.input{
+    margin-left: 10%;
+    width:80%;
+    text-align: center;
+}
+.name{
+    padding:1px;
+    width:60%;
+    border-radius:10px;
+    text-align: center;
+}
+.email{
+    width:60%;
+    margin-top: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+.phoneno{
+    width:60%;
+    margin-top: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+.courses{
+    width:60%;
+    margin-top: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+.query{
+    width:60%;
+    margin-top: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+.subbtn{
+    margin-left: 47%;
+    margin-top: 2%;
+    color:black;
+    background-color: rgb(103, 135, 136);
+    border-radius:1px;
+}
+.bottom{
+    background-color:azure;
+    color:black;
+    text-align:center;
+}

@@ -1,20 +1,22 @@
 const btn=document.getElementsByClassName("enter");
 const result=document.getElementsByClassName("data");
 
-const url="https://www.breakingbadapi.com/api/quote/random";
+const url="https://urlhaus-api.abuse.ch/v1/urls/recent/";
+
 
 btn[0].addEventListener("click",async function (){
 
 
-   result[0].innerHTML="loading...";
+   result[0].innerHTML="Loading..."
+  
+
     try{
         let res= await fetch(url);
         let objet=await res.json();
-        //console.log(objet)
+        console.log(objet)
         result[0].innerHTML=`
-        <h2>Author name:<span>${objet[0].author}<span></h2>
-        <h3>Quote:<span>${objet[0].quote}</span></h3>
-        <h4>series:<span>${objet[0].series}</span></h4>
+        <p><span>${objet[0].id}<span></p>
+       
         `
     }catch (error){
         console.log(error);
